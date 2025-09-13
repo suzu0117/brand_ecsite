@@ -10,3 +10,4 @@ def connect_db():
         port = os.environ.get("DB_PORT")
     )
     return get_connection
+
